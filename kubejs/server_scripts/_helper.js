@@ -1,5 +1,27 @@
 // priority: 9999
 
+// Java imports
+const Registry = Java.loadClass("net.minecraft.core.Registry"); // registries, needed for almost everything involving Java classes
+const TagKey = Java.loadClass("net.minecraft.tags.TagKey");
+const AxisDirection = Java.loadClass("net.minecraft.core.Direction$AxisDirection");
+
+const Random = Java.loadClass("java.util.Random")
+const InputItem = Java.loadClass("dev.latvian.mods.kubejs.item.InputItem")
+const OutputItem = Java.loadClass("dev.latvian.mods.kubejs.item.OutputItem")
+const InputFluid = Java.loadClass("dev.latvian.mods.kubejs.fluid.InputFluid")
+const OutputFluid = Java.loadClass("dev.latvian.mods.kubejs.fluid.OutputFluid")
+const FluidStackJS = Java.loadClass("dev.latvian.mods.kubejs.fluid.FluidStackJS")
+const JsonObject = Java.loadClass("com.google.gson.JsonObject")
+
+const Level = Java.loadClass("net.minecraft.world.level.Level") // For some reason, Kubejs requires that you load this class to create explosions that damage blocks
+
+const colours = ["white", "orange", "magenta", "light_blue", "lime", "pink", "purple", "light_gray", "gray", "cyan", "brown", "green", "blue", "red", "black", "yellow"]
+const native_metals = ["iron", "zinc", "lead", "copper", "nickel", "gold"]
+
+const wood_types = ["minecraft:oak", "minecraft:spruce", "minecraft:birch", "minecraft:jungle", "minecraft:acacia", "minecraft:dark_oak", "minecraft:mangrove", "minecraft:cherry", "minecraft:crimson", "minecraft:warped"]
+
+// None of the modded axes are registered for some reason
+const unregistered_axes = ["ae2:certus_quartz_axe", "ae2:nether_quartz_axe", "ae2:fluix_axe", "tconstruct:hand_axe", "tconstruct:mattock", "tconstruct:broad_axe", "thermal:flux_saw"]
 
 /** Used in a datapack event to remove a configured feature by its resource location */
 const removeFeature = function(event, featureName) {
@@ -48,3 +70,4 @@ const addOregenOverworld = function(event, featureName, blockName, heightType, h
         minInclusive = {"below_top": -(heightMin - 320)}
         maxInclusive = {"below_top": -(heightMax - 320)}
     }
+}
