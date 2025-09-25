@@ -4,4 +4,5 @@ ServerEvents.lowPriorityData(event => {
 
     removeFeature(event, "occultism:ore_silver")
     removeFeature(event, "occultism:ore_silver_deepslate")
+
 })
