@@ -21,5 +21,5 @@ ServerEvents.recipes(event => {
     // recipe changes
     event.replaceInput({ id: "create:crafting/kinetics/adjustable_chain_gearshift" }, "create:electron_tube", "minecraft:redstone")
     event.replaceInput({ id: "create:crafting/kinetics/rope_pulley" }, "#forge:wool", "#supplementaries:ropes")
-    
+
 })
