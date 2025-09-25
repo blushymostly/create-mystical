@@ -20,21 +20,6 @@ JEIEvents.hideItems(event => {
 
     event.hide("architects_palette:withered_bone")
 
-    let begoneEarth = [
-        "tier_1_rover", "tier_2_rocket", "tier_3_rocket", "tier_4_rocket",
-        "steel_cable", "desh_cable", "desh_fluid_pipe", "ostrum_fluid_pipe", "cable_duct", "fluid_pipe_duct",
-        "coal_generator", "compressor", "etrionic_blast_furnace", "nasa_workbench", "fuel_refinery",
-        "water_pump", "energizer", "cryo_freezer",
-        "etrionic_capacitor",
-        "oxygen_gear", "wheel", "engine_frame", "fan", "rocket_nose_cone", "rocket_fin",
-        "etrionic_core", "photovoltaic_vesnium_cell",
-        "infernal_spire_block", "sky_stone",
-        "iron_plate",
-        "cryo_fuel_bucket"
-    ]
-    event.hide(begoneEarth.map(begone=>{return `ad_astra:${begone}`}))
-
-
     event.hide("create:crushed_raw_tin")
     event.hide("create:crushed_raw_osmium")
     event.hide("create:crushed_raw_platinum")
