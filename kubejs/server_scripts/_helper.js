@@ -20,6 +20,88 @@ const native_metals = ["iron", "zinc", "lead", "copper", "nickel", "gold"]
 
 const wood_types = ["minecraft:oak", "minecraft:spruce", "minecraft:birch", "minecraft:jungle", "minecraft:acacia", "minecraft:dark_oak", "minecraft:mangrove", "minecraft:cherry", "minecraft:crimson", "minecraft:warped"]
 
+/**
+ * Used to make smithing/mechanical crafting recipes which are common in A&B.
+ * If the fourth parameter is excluded, then a stonecutting recipe will be created instead.
+ *
+ * First parmeter is the "base" ingredient,
+ * third parameter is the output,
+ * fourth parameter is the secondary ingredient.
+ *
+ * @param {ItemStackJS|string} machineItem
+ * @param {RecipeEventJS} event
+ * @param {ItemStackJS|string} outputIngredient
+ * @param {ItemStackJS|string} inputIngredient
+ */
+// event is the second parameter so that machineItem doesn't look like it's the output item
+const createMachine = (machineItem, event, outputIngredient, inputIngredient) => {
+    machineItem = Ingredient.of(machineItem)
+    outputIngredient = Item.of(outputIngredient)
+
+    event.remove({ output: outputIngredient })
+    if (inputIngredient) {
+        inputIngredient = Ingredient.of(inputIngredient)
+        event.custom({
+            "type": "create:item_application",
+            "ingredients": [
+                machineItem.toJson(),
+                inputIngredient.toJson()
+            ],
+
+            "results": (outputIngredient.isBlock() && outputIngredient.getCount() > 1) ?
+                [
+
+                    outputIngredient.withCount(1).toJson(),
+                    outputIngredient.withCount(outputIngredient.getCount() - 1).toJson()
+                ]
+                :
+                [
+                    outputIngredient.toJson()
+                ]
+
+        })
+    }
+    else
+        event.stonecutting(outputIngredient, machineItem)
+}
+
+const andesiteMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("kubejs:andesite_machine", event, outputIngredient, inputIngredient)
+}
+
+const copperMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("kubejs:copper_machine", event, outputIngredient, inputIngredient)
+}
+
+const goldMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("kubejs:gold_machine", event, outputIngredient, inputIngredient)
+}
+
+const brassMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("kubejs:brass_machine", event, outputIngredient, inputIngredient)
+}
+
+const zincMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("kubejs:zinc_machine", event, outputIngredient, inputIngredient)
+}
+
+const leadMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("kubejs:lead_machine", event, outputIngredient, inputIngredient)
+}
+
+
+const invarMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("thermal:machine_frame", event, outputIngredient, inputIngredient)
+}
+
+const enderiumMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("kubejs:enderium_machine", event, outputIngredient, inputIngredient)
+}
+
+const fluixMachine = (event, outputIngredient, inputIngredient) => {
+    return createMachine("ae2:controller", event, outputIngredient, inputIngredient)
+}
+
 // None of the modded axes are registered for some reason
 const unregistered_axes = ["ae2:certus_quartz_axe", "ae2:nether_quartz_axe", "ae2:fluix_axe", "tconstruct:hand_axe", "tconstruct:mattock", "tconstruct:broad_axe", "thermal:flux_saw"]
 
@@ -31,6 +113,33 @@ const donutCraft = (event, output, center, ring) => {
     ], {
         C: center,
         S: ring
+    })
+}
+
+const addTreeOutput = (event, trunk, leaf, fluid) => {
+    return event.custom({
+        type: "thermal:tree_extractor",
+        trunk: {
+            Name: trunk,
+            Properties: {
+                axis: "y"
+            }
+        },
+        leaves: {
+            Name: leaf,
+            Properties: {
+                persistent: "false"
+            }
+        },
+        // sapling: "minecraft:jungle_sapling",
+        // min_height: 5,
+        // max_height: 10,
+        // min_leaves: 8,
+        // max_leaves: 12,
+        result: fluid ? toThermalOutputJson(fluid) : {
+            fluid: "thermal:resin",
+            amount: 25
+        }
     })
 }
 
