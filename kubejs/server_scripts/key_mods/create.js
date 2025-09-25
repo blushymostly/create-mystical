@@ -22,4 +22,40 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: "create:crafting/kinetics/adjustable_chain_gearshift" }, "create:electron_tube", "minecraft:redstone")
     event.replaceInput({ id: "create:crafting/kinetics/rope_pulley" }, "#forge:wool", "#supplementaries:ropes")
 
+    // windmill recipe tweaks
+    event.remove({ id: "create:crafting/kinetics/white_sail" })
+    event.shaped("2x create:white_sail", [
+        "SSS",
+        "NAN",
+        "SSS"
+    ], {
+        A: "#forge:wool",
+        N: "minecraft:iron_nugget",
+        S: "minecraft:stick"
+    })
+
+    // tweak obsidian crushing recipe
+    event.remove({ id: "create:crushing/obsidian" })
+    event.recipes.create.crushing("create:powdered_obsidian", "minecraft:obsidian")
+    // recompacting obsidian dust into its resource
+    event.recipes.create.compacting("#forge:dusts/obsidian", "minecraft:obsidian")
+
+        // Gravel and red sand washing buffs
+    event.remove({ id: "create:splashing/gravel" })
+    event.recipes.create.splashing([
+        Item.of(Item.of("minecraft:iron_nugget", 2)).withChance(0.125),
+        Item.of("minecraft:flint").withChance(0.25)
+    ], "minecraft:gravel")
+
+    event.remove({ id: "create:splashing/red_sand" })
+    event.recipes.create.splashing([
+        Item.of(Item.of("minecraft:gold_nugget", 2)).withChance(0.125),
+        Item.of("minecraft:dead_bush").withChance(0.05)
+    ], "minecraft:red_sand")
+
+    // unify dough and allow the slime recipe to take dough from farmer's delight
+    event.remove({ id: "create:crafting/appliances/dough" })
+    event.replaceOutput({ id: "farmersdelight:wheat_dough_from_water" }, "farmersdelight:wheat_dough", "create:dough")
+    event.replaceOutput({ id: "farmersdelight:wheat_dough_from_eggs" }, "farmersdelight:wheat_dough", "create:dough")
+    event.replaceInput({ id: "create:crafting/appliances/slime_ball" }, "create:dough", "#forge:dough")
 })
