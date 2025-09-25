@@ -1,0 +1,227 @@
+#
+# Monifactory gitignore
+#
+
+# Start off by ignoring everything
+/*
+
+# Pre-commit ESLint hook
+!/.github
+
+# Probe JS
+/kubejs/probe
+/kubejs/config/probejs.json
+/kubejs/config/probe-settings.json
+/kubejs/*/jsconfig.json
+
+# VSCode workspace
+!/.vscode
+/.vscode/*
+!/.vscode/*.code-workspace
+
+# Configs
+!/config
+/config/*
+
+# AE2
+!/config/ae2
+/config/ae2/client.json
+/config/ae2/common.json
+
+# Almost Unified
+!/config/almostunified
+/config/almostunified/*
+!/config/almostunified/unify.json
+
+# Bountiful
+!/config/bountiful
+/config/bountiful/*
+!/config/bountiful/bounty_decrees
+
+# Default World Type
+!/config/defaultworldtype
+config/defaultworldtype/world-presets.txt
+
+# EnderIO configs
+!/config/enderio
+/config/enderio/*
+!/config/enderio/base-common.toml
+!/config/enderio/machines-common.toml
+
+# Fancy Menu Configs
+!/config/fancymenu
+
+# FTBQuests
+!/config/ftbquests
+/config/ftbquests/quests/chapters/genesis.snbt
+
+# Functional Storage
+!/config/functionalstorage
+/config/functionalstorage/*
+!/config/functionalstorage-common.toml
+
+# Hammer Lib
+!/config/hammerlib
+
+# Iron Jetpacks
+!/config/ironjetpacks
+
+# Jade
+!/config/jade
+/config/jade/*
+!/config/jade/jade.json
+
+# Lost cities
+!/config/lostcities
+/config/lostcities/profiles/*
+!/config/lostcities/profiles/monidefault.json
+
+# NCN
+!/config/NuclearCraft
+/config/NuclearCraft/*
+!/config/NuclearCraft/fission_fuel
+!/config/NuclearCraft/heat_sinks
+!/config/NuclearCraft/common.toml
+!/config/NuclearCraft/fission.toml
+!/config/NuclearCraft/materials.toml
+
+# SolarFlux
+!/config/solarflux
+
+# WaterMedia
+!/config/watermedia
+
+# Individual config files
+!/config/ad_astra.jsonc
+!/config/alltheleaks.json
+!/config/badoptimizations.txt
+!/config/cable_facades-common.toml
+!/config/climbladdersfast.json5
+!/config/compactmachines-common.toml
+!/config/connectivity.json
+!/config/create-client.toml
+!/config/create-common.toml
+!/config/custom-item-despawn-duration.json
+!/config/darkmodeeverywhere-client.toml
+!/config/darkmodeeverywhereshaders.json
+!/config/ding.toml
+!/config/embeddium-options.json
+!/config/embeddium++.toml
+!/config/emi_loot_config.toml
+!/config/extendedcrafting-common.toml
+!/config/fluxnetworks-common.toml
+!/config/flywheel-client.toml
+!/config/hostilenetworks.cfg
+!/config/immediatelyfast.json
+!/config/ironfurnaces-client.toml
+!/config/ironjetpacks-common.toml
+!/config/laserio-common.toml
+!/config/legendarytooltips-common.toml
+!/config/modernfix-mixins.properties
+!/config/monilabs.yaml
+!/config/quark-common.toml
+!/config/resourceful-config-web.json
+!/config/sdrp-common.json
+!/config/smoothboot.json
+!/config/smoothchunk.json
+!/config/sophisticatedcore-common.toml
+!/config/sophisticatedstorage-client.toml
+!/config/telepastries-common.toml
+!/config/tempad.jsonc
+!/config/thermal-common.toml
+!/config/toastcontrol-common.toml
+!/config/ulvcovm-common.toml
+!/config/watercollector-common.toml
+!/config/wirelesschargers-common.toml
+!/config/zume.json5
+
+# Config overrides
+!/config-overrides
+
+# defaultconfigs
+!/defaultconfigs
+defaultconfigs/ftbultimine/ftbultimine-client.snbt
+defaultconfigs/ftbultimine/ftbultimine-server.snbt
+
+# journeymap
+!/journeymap
+/journeymap/*
+!/journeymap/config
+/journeymap/config/5.10/*
+!/journeymap/config/5.10/journeymap.core.config
+
+# KubeJS scripts
+!/kubejs
+
+!/mods
+/mods/*
+!/mods/compats.md
+
+# Build script
+!/build
+
+# VSCode Editor Config
+!.editorconfig
+
+# Git files
+!/.gitattributes
+!/.gitignore
+
+# Documentation & README
+!/CHANGELOG.md
+!/CONTRIBUTING.md
+!/FAQ.md
+!/KNOWN-ISSUES.md
+!/LICENSE.md
+!/README.md
+
+# Mod manifest
+!/manifest.json
+
+# Pack mode Switcher scripts
+!/pack-mode-switcher*
+
+# Hide code-generated files
+kubejs/client_scripts/Dev_Capes.js
+config/fancymenu/customization/pack_credit_screen_layout.txt
+**/en_ud.local
+**/en_ud.json
+
+# dotenv
+.env
+
+### https://raw.github.com/github/gitignore/cc542de017c606138a87ee4880e5f06b3a306def/Global/Linux.gitignore
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+### https://raw.github.com/github/gitignore/cc542de017c606138a87ee4880e5f06b3a306def/Global/Windows.gitignore
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+### https://raw.github.com/github/gitignore/cc542de017c606138a87ee4880e5f06b3a306def/Global/OSX.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+kubejs/assets/gtceu/textures/item/material_sets/infinity/infinity_plate.xcf
+
+# Downloadable dependencies
+**/node_modules
