@@ -34,6 +34,40 @@ const donutCraft = (event, output, center, ring) => {
     })
 }
 
+/** Used in datapack events instead of recipe events */
+const addChiselingRecipe = (event, id, items, overwrite) => {
+    const json = {
+        type: "rechiseled:chiseling",
+        entries: [],
+        overwrite: !!overwrite
+    }
+    items.forEach(item=>{
+        json.entries.push({
+            item: item
+        })
+    })
+    event.addJson(id, json)
+}
+
+const getPreferredItemFromTag = (tag) => {
+    /* Tried using mantle for this and it didn't work on first launch unfortunately */
+    // return Item.of(ItemOutput.fromTag(TagKey.create(Registry.ITEM_REGISTRY, tag), 1).get()).getId();
+    /* Create a copy of the mantle preferred mods list */
+    const preferredMods = ["minecraft", "create", "alloyed", "createdeco", "createaddition", "createbigcannons", "create_dd", "thermal", "tconstruct", "tmechworks"];
+    const tagItems = Ingredient.of("#" + tag).itemIds;
+    for (let i = 0;i < preferredMods.length;++i) { let modId = preferredMods[i];
+        for (let j = 0;j < tagItems.length;++j) { let itemId = tagItems[j];
+            if (itemId.split(":")[0] === modId) {
+                return itemId;
+            }
+        }
+    }
+    if (tagItems.length > 0) {
+        return tagItems[0];
+    }
+    return "minecraft:air";
+}
+
 /** Used in a datapack event to remove a configured feature by its resource location */
 const removeFeature = function(event, featureName) {
     featureName = featureName.split(":")
