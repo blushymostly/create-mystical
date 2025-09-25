@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
         event.remove({ output: name + "_casing"})
         event.shapeless(Item.of(name + "_casing", 2), mats)
     }
-
     tweak_casing("create:andesite", ["create:andesite_alloy", "#minecraft:logs"])
     tweak_casing("create:copper", ["create:copper_sheet", "#minecraft:logs"])
     tweak_casing("create:railway", ["create:golden_sheet", "minecraft:deepslate"])
@@ -21,7 +20,6 @@ ServerEvents.recipes(event => {
     // recipe changes
     event.replaceInput({ id: "create:crafting/kinetics/adjustable_chain_gearshift" }, "create:electron_tube", "minecraft:redstone")
     event.replaceInput({ id: "create:crafting/kinetics/rope_pulley" }, "#forge:wool", "#supplementaries:ropes")
-
     // windmill recipe tweaks
     event.remove({ id: "create:crafting/kinetics/white_sail" })
     event.shaped("2x create:white_sail", [
@@ -33,14 +31,13 @@ ServerEvents.recipes(event => {
         N: "minecraft:iron_nugget",
         S: "minecraft:stick"
     })
-
     // tweak obsidian crushing recipe
     event.remove({ id: "create:crushing/obsidian" })
     event.recipes.create.crushing("create:powdered_obsidian", "minecraft:obsidian")
     // recompacting obsidian dust into its resource
     event.recipes.create.compacting("#forge:dusts/obsidian", "minecraft:obsidian")
 
-        // Gravel and red sand washing buffs
+    // Gravel and red sand washing buffs
     event.remove({ id: "create:splashing/gravel" })
     event.recipes.create.splashing([
         Item.of(Item.of("minecraft:iron_nugget", 2)).withChance(0.125),

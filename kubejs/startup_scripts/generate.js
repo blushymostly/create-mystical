@@ -4,6 +4,126 @@ const BlockStateProperties = Java.loadClass("net.minecraft.world.level.block.sta
 
 // Textures must use the 'mystical' namespace to avoid a bug involving kubejs loading textures from resource packs.
 // Textures must also be stored in a resource pack since the kubejs assets folder cannot be overridden using resource packs for whatever reason
+StartupEvents.registry("item", event => {
+    event.create("alchemical_laser").parentModel("mystical:item/alchemical_laser").displayName("Alchemical Laser (Ponder Entry)").unstackable()
+
+    let types = ["Certus", "Fluix"]
+    types.forEach(e => {
+        let id = e.toLowerCase()
+        event.create(id + "_crystal_seed").texture("mystical:item/crystal_seed_" + id).displayName(e + " Quartz Seed")
+        event.create("growing_" + id + "_seed","create:sequenced_assembly").texture("mystical:item/crystal_seed_" + id).displayName(e + " Quartz Seed")
+        event.create("tiny_" + id + "_crystal").texture("mystical:item/crystal_seed_" + id + "2").displayName("Tiny " + e + " Quartz Crystal")
+        event.create("growing_tiny_" + id + "_crystal","create:sequenced_assembly").texture("mystical:item/crystal_seed_" + id + "2").displayName("Tiny " + e + " Quartz Crystal")
+        event.create("small_" + id + "_crystal").texture("mystical:item/crystal_seed_" + id + "3").displayName("Small " + e + " Quartz Crystal")
+        event.create("growing_small_" + id + "_crystal","create:sequenced_assembly").texture("mystical:item/crystal_seed_" + id + "3").displayName("Small " + e + " Quartz Crystal")
+    });
+
+    let processors = ["Calculation", "Logic", "Engineering"]
+    processors.forEach(name => {
+        let e = name.toLowerCase()
+        event.create("incomplete_" + e + "_processor","create:sequenced_assembly").texture("mystical:item/incomplete_" + e + "_processor").displayName("Incomplete " + name + " Processor")
+    })
+
+    event.create("incomplete_flight_anchor","create:sequenced_assembly").modelJson({parent: "minecraft:block/beacon"}).displayName("Incomplete Flight Anchor")
+    event.create("incomplete_gravity_normalizer","create:sequenced_assembly").modelJson({parent: "ad_astra:block/gravity_normalizer"}).displayName("Incomplete Gravity Normalizer")
+
+    let number = (name) => {
+        let id = name.toLowerCase()
+        event.create(id).texture("mystical:item/" + id).glow(true).displayName(name)
+    }
+
+    number("Zero")
+    number("One")
+    number("Two")
+    number("Three")
+    number("Four")
+    number("Five")
+    number("Six")
+    number("Seven")
+    number("Eight")
+    number("Nine")
+    number("Plus")
+    number("Minus")
+    number("Multiply")
+    number("Divide")
+
+    let mechanism = (name, rarity) => {
+        let id = name.toLowerCase()
+        event.create(id + "_mechanism").texture("mystical:item/" + id + "_mechanism").displayName(name + " Mechanism").rarity(rarity ? rarity : "common")
+        event.create("incomplete_" + id + "_mechanism","create:sequenced_assembly").texture("mystical:item/incomplete_" + id + "_mechanism").displayName("Incomplete " + name + " Mechanism")
+    }
+
+    event.create("radiant_coil").glow(true).texture("mystical:item/radiant_coil").displayName("Radiant Induction Coil")
+    event.create("radiant_sheet").glow(true).texture("mystical:item/radiant_sheet").displayName("Radiant Sheet")
+
+    mechanism("Kinetic")
+    mechanism("Sealed")
+    mechanism("Reinforced")
+    mechanism("Infernal", "uncommon")
+    mechanism("Logistic", "uncommon")
+    mechanism("Inductive", "uncommon")
+    mechanism("Abstruse", "rare")
+    mechanism("Calculation", "rare")
+
+    let slime_types = ["Earth", "Sky", "Ender"]
+    let slime_colours = [0x8FDB84, 0x00F9DE, 0xAC2EFC]
+
+    for (let i = 0; i < slime_types.length; i++) {
+        let name = slime_types[i]
+        let id = name.toLowerCase()
+        event.create(`${id}_slimy_fern_leaf`)
+            .color(0, slime_colours[i])
+            .texture("mystical:item/slimy_fern_leaf")
+            .displayName("Slimy Fern Leaf")
+        event.create(`${id}_slime_fern_paste`)
+            .color(0, slime_colours[i])
+            .texture("mystical:item/ground_slimy_fern")
+            .displayName("Slimy Fern Blend")
+    }
+
+    // Misc / Integration
+    event.create("pipe_module_utility").texture("mystical:item/pipe_module_utility").displayName("Utility Pipe Module")
+    event.create("pipe_module_tier_1").texture("mystical:item/pipe_module_tier_1").displayName("Brass Pipe Module")
+    event.create("pipe_module_tier_2").texture("mystical:item/pipe_module_tier_2").displayName("Invar Pipe Module")
+    event.create("pipe_module_tier_3").texture("mystical:item/pipe_module_tier_3").displayName("Enderium Pipe Module")
+
+    event.create("circuit_scrap").texture("mystical:item/circuit_scrap").displayName("Circuit Scrap")
+    // event.create('charged_calculator').texture("mystical:item/charged_calculator").displayName('Calculator').maxDamage(64)
+    event.create("missingno").texture("mystical:item/missingno").displayName("∄")
+    event.create("zinc_dust").texture("mystical:item/zinc_dust").displayName("Zinc Dust").tag("forge:dusts/zinc").tag("forge:dusts")
+    // event.create('creosote_pellet').texture("mystical:item/creosote_pellet").displayName('Creosote Pellet')
+    event.create("sand_ball").texture("mystical:item/sand_ball").displayName("Ball of Sand").unstackable()
+    event.create("rough_sand").texture("mystical:item/rough_sand").displayName("Sand Chunks")
+    event.create("purified_sand").texture("mystical:item/purified_sand").displayName("Purified Sand")
+    event.create("silicon_compound").texture("mystical:item/silicon_compound").displayName("Silicon Compound")
+    event.create("incomplete_coke_chunk","create:sequenced_assembly").texture("mystical:item/incomplete_coke_chunk").displayName("Cut Coke")
+    event.create("coke_chunk").texture("mystical:item/coke_chunk").displayName("Coke Chunks")
+    // event.create('smoke_mote').texture("mystical:item/smoke_mote").displayName('Tiny Smoke Cloud')
+
+    event.create("matter_plastics").texture("mystical:item/matter_plastics").displayName("Matter Plastics")
+    event.create("nickel_compound").texture("mystical:item/nickel_compound").displayName("Nickel Compound").unstackable()
+    event.create("invar_compound","create:sequenced_assembly").texture("mystical:item/invar_compound").displayName("Unprocessed Invar Ingot")
+    event.create("dye_entangled_singularity").texture("mystical:item/dye_entangled_singularity").unstackable().displayName("Chromatic Singularity")
+
+    event.create("strainer_filter").texture("waterstrainer:items/strainer_survivalist").displayName("Strainer Filter").maxDamage(384)
+    event.create("chromatic_resonator").texture("mystical:item/chromatic_resonator").displayName("Chromatic Resonator").maxDamage(512)
+    event.create("flash_drive").texture("mystical:item/boot_medium").displayName("Flash Drive").maxDamage(512)
+
+    event.create("thermal_cast").texture("mystical:item/thermal_cast").displayName("Thermal Cast").unstackable()
+    event.create("three_cast").texture("mystical:item/three_cast").displayName("Integer Cast (3)").unstackable()
+    event.create("eight_cast").texture("mystical:item/eight_cast").displayName("Integer Cast (8)").unstackable()
+    event.create("plus_cast").texture("mystical:item/plus_cast").displayName("Operator Cast (+)").unstackable()
+    event.create("minus_cast").texture("mystical:item/minus_cast").displayName("Operator Cast (-)").unstackable()
+    event.create("multiply_cast").texture("mystical:item/multiply_cast").displayName("Operator Cast (x)").unstackable()
+    event.create("divide_cast").texture("mystical:item/divide_cast").displayName("Operator Cast (/)").unstackable()
+    event.create("attachment_base").texture("mystical:item/attachment_base").displayName("Attachment Base")
+    event.create("silver_coin").texture("mystical:item/silver_coin").displayName("Silver Coin Stack Icon")
+    event.create("gold_coin").texture("mystical:item/gold_coin").displayName("Gold Coin Stack Icon")
+
+    event.create("mystic_pottery_sherd").texture("mystical:item/mystic_pottery_sherd").displayName("Mystic Pottery Sherd").tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
+    event.create("cozy_pottery_sherd").texture("mystical:item/cozy_pottery_sherd").displayName("Cozy Pottery Sherd").tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
+    event.create("circuit_pottery_sherd").texture("mystical:item/circuit_pottery_sherd").displayName("Circuit Pottery Sherd").tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
+})
 
 StartupEvents.registry("block", event => {
 
@@ -224,4 +344,56 @@ StartupEvents.registry("block", event => {
     acceleratorBlock(0xFFBC5E, "accellerator_glowstone", "Glowstone Accelerator", "mystical:block/accellerator")
 
     acceleratorBlock(0xAA0F01, "accellerator_redstone", "Redstone Accelerator", "mystical:block/accellerator")
+})
+
+StartupEvents.registry("fluid", event => {
+    let colors = [0xCBE827, 0xAEE827, 0x68E827, 0x27E86E, 0x27E8B1, 0x27DEE8, 0x27B5E8, 0x2798E8, 0x2778E8, 0x2748E8]
+    event.create("raw_logic").displayName("Liquified Logic (Unprocessed)").stillTexture("mystical:fluid/number_still").flowingTexture("mystical:fluid/number_flow").color(0xE7FFCB)
+    for (let i = 0; i < 10; i++)
+        event.create("number_" + i).displayName(`Liquified Logic (${i})`).stillTexture("mystical:fluid/number_still").flowingTexture("mystical:fluid/number_flow").color(colors[i])
+    event.create("matrix").displayName("Liquified Computation Matrix").stillTexture("mystical:fluid/matrix_still").flowingTexture("mystical:fluid/matrix_flow").bucketColor(colors[0])
+    event.create("fine_sand").displayName("Fine Sand").stillTexture("mystical:fluid/fine_sand_still").flowingTexture("mystical:fluid/fine_sand_flow").bucketColor(0xE3DBB0)
+    event.create("crude_oil").displayName("Crude Oil").stillTexture("thermal:block/fluids/crude_oil_still").flowingTexture("thermal:block/fluids/crude_oil_flow").bucketColor(0x222118)
+    event.create("volatile_sky_solution").displayName("Volatile Sky Solution").stillTexture("tconstruct:fluid/molten/compat_alloy/refined_obsidian/still").flowingTexture("tconstruct:fluid/molten/compat_alloy/refined_obsidian/flowing").color(0x8feebf).bucketColor(0x1A1123)
+    event.create("chromatic_waste").displayName("Chromatic Waste").stillTexture("tconstruct:fluid/molten/compat_alloy/enderium/still").flowingTexture("tconstruct:fluid/molten/compat_alloy/enderium/flowing").color(0x0B3E36)
+    event.create("liquid_pulp").displayName("Liquid Pulp").stillTexture("tconstruct:fluid/molten/compat_alloy/pewter/still").flowingTexture("tconstruct:fluid/molten/compat_alloy/pewter/still").color(0xb4a498)
+//	event.create('liquid_smoke').displayName(`Liquid Smoke`).stillTexture('advancedrocketry:blocks/fluid/oxygen_still').flowingTexture('advancedrocketry:blocks/fluid/oxygen_flow').bucketColor(0xEBEBEB)
+})
+
+ItemEvents.modification(event => {
+    let colors = ["red", "yellow", "green", "blue", "magenta", "black"]
+    colors.forEach(element => {
+        event.modify("ae2:" + element + "_paint_ball", item => {
+            item.maxStackSize = 1
+        })
+    });
+
+    event.modify("projectred_core:screwdriver", item => {
+        item.maxDamage = 512
+    })
+})
+
+StartupEvents.registry("potion", (event) => {
+    let createCustomPotion = (name, effect, duration, long_duration, strong_duration) => {
+        event.create(name).effect(
+            effect,
+            20 * duration,
+            0
+        )
+
+        event.create("long_" + name).effect(
+            effect,
+            20 * long_duration,
+            0
+        )
+
+        if (strong_duration != undefined)
+            event.create("strong_" + name).effect(
+                effect,
+                20 * strong_duration,
+                1
+            )
+    }
+
+    createCustomPotion("haste", "minecraft:haste", 180, 480, 90)
 })

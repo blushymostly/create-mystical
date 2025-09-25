@@ -1,7 +1,6 @@
 // priority: 1
 
 wood_types.push("thermal:rubberwood")
-
 ServerEvents.recipes(event => {
     // filter augment recipe change
     event.remove({ id: "thermal:augments/item_filter_augment" })
@@ -9,8 +8,12 @@ ServerEvents.recipes(event => {
     // Augments that do nothing in 1.18.2
     event.remove({ id: "thermal:augments/rs_control_augment" })
     event.remove({ id: "thermal:augments/side_config_augment" })
-
-// why are these even recipes?
+    // Silver replacements
+    event.replaceInput({ id: "thermal:augments/rf_coil_storage_augment" }, "#forge:ingots/silver", "#forge:ingots/iron")
+    event.replaceInput({ id: "thermal:augments/rf_coil_xfer_augment" }, "#forge:ingots/silver", "#forge:ingots/iron")
+    event.replaceInput({ id: "thermal:augments/rf_coil_augment" }, "#forge:ingots/silver", "#forge:ingots/iron")
+    event.replaceInput({ id: "thermal:tools/detonator" }, "#forge:ingots/silver", "#forge:ingots/lead")
+    // why are these even recipes?
     event.remove({ id: "thermal:lightning_charge/zombified_piglin_from_pig"})
     event.remove({ id: "thermal:lightning_charge/witch_from_villager"})
     // duplicate storage block recipes
@@ -37,7 +40,7 @@ ServerEvents.recipes(event => {
     // Ruby and sapphire dusts from earth charges
     event.shapeless(Item.of("thermal:ruby_dust"), ["#forge:gems/ruby", "thermal:earth_charge"])
     event.shapeless(Item.of("thermal:sapphire_dust"), ["#forge:gems/sapphire", "thermal:earth_charge"])
-     // Make molten glass with the cruicible
+    // Make molten glass with the cruicible
     event.recipes.thermal.crucible(Fluid.of("tconstruct:molten_glass", 1000), "#forge:sand", 0, 6000)
     event.recipes.thermal.crucible(Fluid.of("tconstruct:molten_glass", 1000), "#forge:glass/colorless", 0, 3000)
     // Gourmand fuel recipes for farmer's delight crates
@@ -47,7 +50,6 @@ ServerEvents.recipes(event => {
     event.custom({"type": "thermal:gourmand_fuel", "ingredient": {"item": "farmersdelight:cabbage_crate"}, "energy": 32000})
     event.custom({"type": "thermal:gourmand_fuel", "ingredient": {"item": "farmersdelight:onion_crate"}, "energy": 32000})
     event.custom({"type": "thermal:gourmand_fuel", "ingredient": {"item": "farmersdelight:tomato_crate"}, "energy": 16000})
-
     // Igneous Extruder recipes
     let bedrock_cobblegen = (adjacent, output) => {
         event.custom({
@@ -71,6 +73,9 @@ ServerEvents.recipes(event => {
         "adjacent": "create:honey",
         "result": { "item": "create:limestone"}
     })
+
+    // thermal dynamics stuff
+    // thermal dynamics might be split into a compatability mod eventually
 
     // Energy duct recipe change
     event.remove({ output: "thermal:energy_duct" })
