@@ -23,6 +23,17 @@ const wood_types = ["minecraft:oak", "minecraft:spruce", "minecraft:birch", "min
 // None of the modded axes are registered for some reason
 const unregistered_axes = ["ae2:certus_quartz_axe", "ae2:nether_quartz_axe", "ae2:fluix_axe", "tconstruct:hand_axe", "tconstruct:mattock", "tconstruct:broad_axe", "thermal:flux_saw"]
 
+const donutCraft = (event, output, center, ring) => {
+    return event.shaped(output, [
+        "SSS",
+        "SCS",
+        "SSS"
+    ], {
+        C: center,
+        S: ring
+    })
+}
+
 /** Used in a datapack event to remove a configured feature by its resource location */
 const removeFeature = function(event, featureName) {
     featureName = featureName.split(":")
