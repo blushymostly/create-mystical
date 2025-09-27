@@ -28,7 +28,6 @@
 			bloodshroom = true
 			enderbark = true
 
-
 		[types.wood_type.caverns_and_chasms]
 			azalea = true
 
@@ -67,6 +66,24 @@
 			laurel = true
 			kousa = true
 			grimwood = true
+
+	[types.cake]
+
+		[types.cake.thermal]
+			chocolate_cake = true
+			spice_cake = true
+
+		[types.cake.farmersrespite]
+			coffee_cake = true
+
+		[types.cake.neapolitan]
+			vanilla_cake = true
+			chocolate_cake = true
+			strawberry_cake = true
+			banana_cake = true
+			mint_cake = true
+			adzuki_cake = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.thermal]
@@ -190,6 +207,31 @@
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
+		[entries.wood_type.boatload]
+			large_boat = true
+			furnace_boat = true
+
+		[entries.wood_type.another_furniture]
+			flower_box = true
+			shelf = true
+			shutter = true
+			bench = true
+			table = true
+			drawer = true
+			chair = true
+
+		[entries.wood_type.woodworks]
+			trapped_chest = true
+			boards = true
+			chest = true
+			beehive = true
+			bookshelf = true
+			chiseled_bookshelf = true
+			ladder = true
+
+		[entries.wood_type.twigs]
+			table = true
+
 	[entries.leaves_type]
 
 		[entries.leaves_type.quark]
@@ -198,3 +240,4 @@
 
 		[entries.leaves_type.woodworks]
 			leaf_pile = true
+
