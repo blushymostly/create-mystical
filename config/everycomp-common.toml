@@ -12,6 +12,7 @@
 	generate_dynamic_assets = true
 	#Allow the item_search or searchBar to be visible.
 	tab_item_search = true
+
 	[general.tooltips]
 		#Enabled tooltips showing which mod an EC item is from
 		mod_origin_enabled = true
