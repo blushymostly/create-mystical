@@ -1,0 +1,168 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "0"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "2"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "3"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "4"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "5"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "6"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "7"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "8"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "9"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "10"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "11"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "12"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "13"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "14"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "15"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "16"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "17"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "18"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "19"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "20"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "21"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "22"
+		},
+		"Name": "moreminecarts:piston_display_block"
+	}
+]

@@ -1,0 +1,7684 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "north"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "south"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "west"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "0",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "1",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "2",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "3",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "4",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "5",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "6",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "7",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "8",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "9",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "10",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "11",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "12",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "13",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "14",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_east",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_west",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_north",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "ascending_south",
+			"level": "15",
+			"facing": "east"
+		},
+		"Name": "moreminecarts:hologram_rail"
+	}
+]
