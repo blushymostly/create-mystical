@@ -71,6 +71,10 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
