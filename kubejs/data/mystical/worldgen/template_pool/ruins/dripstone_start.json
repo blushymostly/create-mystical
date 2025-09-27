@@ -1,0 +1,33 @@
+{
+    "name": "mystical:ruins/dripstone_start",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/crossing",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/straight",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/turn",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

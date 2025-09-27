@@ -1,0 +1,15 @@
+{
+  "name": "mystical:railshaft/house",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mystical:railshaft/house",
+        "processors": "mystical:waterlog_fixed",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

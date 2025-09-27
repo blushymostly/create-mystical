@@ -1,0 +1,28 @@
+{
+    "placement": {
+      "type": "integrated_api:advanced_random_spread",
+      "super_exclusion_zone": {
+        "chunk_count": 4,
+        "other_set": "#mystical:slime_avoid"
+      },
+      "salt": 584172329,
+      "separation": 10,
+      "spacing": 25,
+      "spread_type": "triangular"
+    },
+    "structures": [
+      {
+        "structure": "mystical:slime_earth",
+        "weight": 1
+      },
+      {
+        "structure": "mystical:slime_ender",
+        "weight": 1
+      },
+      {
+        "structure": "mystical:slime_sky",
+        "weight": 1
+      }
+    ]
+  }
+  

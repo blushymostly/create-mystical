@@ -9,9 +9,9 @@ to make editing this file much easier.
 */
 {
 	// Generates all block states for all blocks in the registry.
-	"generate_all_known_states": true,
+	"generate_all_known_states": false,
 	// Whether blocks are replaced in existing chunks.
-	"retro_gen": false,
+	"retro_gen": true,
 	/* A map of states that specifies what the "old" block state is and what its "new" block state is.
 	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
 	   Example:
@@ -84,5 +84,11 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"swapper": { }
-}
+	"swapper": { 
+		"minecraft:redstone_ore": "thermal:cinnabar_ore"
+		"minecraft:deepslate_redstone_ore": "thermal:deepslate_cinnabar_ore",
+		"ae2:flawless_budding_quartz": "ae2:quartz_block",
+		"ae2:flawed_budding_quartz": "ae2:quartz_block",
+		"ae2:chipped_budding_quartz": "ae2:quartz_block",
+		"ae2:damaged_budding_quartz": "ae2:quartz_block"
+	}

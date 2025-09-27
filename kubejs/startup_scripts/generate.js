@@ -27,6 +27,7 @@ StartupEvents.registry("item", event => {
     event.create("incomplete_flight_anchor","create:sequenced_assembly").modelJson({parent: "minecraft:block/beacon"}).displayName("Incomplete Flight Anchor")
     event.create("incomplete_gravity_normalizer","create:sequenced_assembly").modelJson({parent: "ad_astra:block/gravity_normalizer"}).displayName("Incomplete Gravity Normalizer")
 
+    /*
     let number = (name) => {
         let id = name.toLowerCase()
         event.create(id).texture("mystical:item/" + id).glow(true).displayName(name)
@@ -46,6 +47,7 @@ StartupEvents.registry("item", event => {
     number("Minus")
     number("Multiply")
     number("Divide")
+*/
 
     let mechanism = (name, rarity) => {
         let id = name.toLowerCase()
@@ -108,7 +110,7 @@ StartupEvents.registry("item", event => {
     event.create("strainer_filter").texture("waterstrainer:items/strainer_survivalist").displayName("Strainer Filter").maxDamage(384)
     event.create("chromatic_resonator").texture("mystical:item/chromatic_resonator").displayName("Chromatic Resonator").maxDamage(512)
     event.create("flash_drive").texture("mystical:item/boot_medium").displayName("Flash Drive").maxDamage(512)
-
+/*
     event.create("thermal_cast").texture("mystical:item/thermal_cast").displayName("Thermal Cast").unstackable()
     event.create("three_cast").texture("mystical:item/three_cast").displayName("Integer Cast (3)").unstackable()
     event.create("eight_cast").texture("mystical:item/eight_cast").displayName("Integer Cast (8)").unstackable()
@@ -116,6 +118,7 @@ StartupEvents.registry("item", event => {
     event.create("minus_cast").texture("mystical:item/minus_cast").displayName("Operator Cast (-)").unstackable()
     event.create("multiply_cast").texture("mystical:item/multiply_cast").displayName("Operator Cast (x)").unstackable()
     event.create("divide_cast").texture("mystical:item/divide_cast").displayName("Operator Cast (/)").unstackable()
+    */
     event.create("attachment_base").texture("mystical:item/attachment_base").displayName("Attachment Base")
     event.create("silver_coin").texture("mystical:item/silver_coin").displayName("Silver Coin Stack Icon")
     event.create("gold_coin").texture("mystical:item/gold_coin").displayName("Gold Coin Stack Icon")

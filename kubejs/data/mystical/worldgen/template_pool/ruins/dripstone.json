@@ -1,0 +1,96 @@
+{
+    "name": "mystical:ruins/dripstone",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "mystical:ruins/dripstone/crossing",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 4,
+        "element": {
+          "location": "mystical:ruins/dripstone/straight",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "mystical:ruins/dripstone/turn",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/arch",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/bridge",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/end",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/foundation",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/house",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/spires",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystical:ruins/dripstone/tower",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
