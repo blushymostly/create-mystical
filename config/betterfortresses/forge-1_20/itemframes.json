@@ -8,7 +8,11 @@
       "stone_sword": 0.025,
       "iron_sword": 0.025,
       "stone_axe": 0.025,
-      "golden_axe": 0.05
+      "golden_axe": 0.05,
+      "golden_sword": 0.05,
+      "stone_axe": 0.025,
+      "shield": 0.025,
+      "netherite_sword": 0.005
     },
     "defaultItem": "air"
   },
@@ -39,9 +43,9 @@
   },
   "alchemyItems": {
     "entries": {
-      "quartz": 0.3,
       "magma_cream": 0.3,
-      "fire_charge": 0.2
+      "fire_charge": 0.2,
+      "quartz": 0.3
     },
     "defaultItem": "air"
   }
