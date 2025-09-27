@@ -1,0 +1,7 @@
+{
+  "parent": "mystical:block/substrate",
+  "textures": {
+    "particle": "block/glass",
+    "0": "mystical:block/chaos_glass"
+  }
+}

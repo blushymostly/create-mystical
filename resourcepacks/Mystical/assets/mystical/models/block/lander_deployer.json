@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystical:block/navigation_computer_bottom",
+    "up": "mystical:block/lander_deployer_top",
+    "north": "mystical:block/lander_deployer",
+    "east": "mystical:block/lander_deployer",
+    "south": "mystical:block/lander_deployer",
+    "west": "mystical:block/lander_deployer",
+    "particle": "mystical:block/lander_deployer"
+  }
+}

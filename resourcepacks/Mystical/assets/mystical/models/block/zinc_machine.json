@@ -1,0 +1,13 @@
+{
+  "parent": "thermal:block/frame_base",
+  "textures": {
+    "particle": "mystical:block/zinc_machine_top",
+    "down": "mystical:block/zinc_machine_bottom",
+    "up": "mystical:block/zinc_machine_top",
+    "north": "mystical:block/zinc_machine_side",
+    "east": "mystical:block/zinc_machine_side",
+    "south": "mystical:block/zinc_machine_side",
+    "west": "mystical:block/zinc_machine_side",
+    "inner": "mystical:block/zinc_machine_inner"
+  }
+}

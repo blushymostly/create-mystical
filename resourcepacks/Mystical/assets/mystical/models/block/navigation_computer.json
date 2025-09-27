@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystical:block/navigation_computer_bottom",
+    "up": "mystical:block/navigation_computer_top",
+    "north": "mystical:block/navigation_computer",
+    "east": "mystical:block/navigation_computer_side",
+    "south": "mystical:block/navigation_computer_back",
+    "west": "mystical:block/navigation_computer_side",
+    "particle": "mystical:block/navigation_computer"
+  }
+}

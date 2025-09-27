@@ -1,0 +1,13 @@
+{
+  "parent": "thermal:block/frame_base",
+  "textures": {
+    "particle": "mystical:block/enderium_machine_top",
+    "down": "mystical:block/enderium_machine_bottom",
+    "up": "mystical:block/enderium_machine_top",
+    "north": "mystical:block/enderium_machine_side",
+    "east": "mystical:block/enderium_machine_side",
+    "south": "mystical:block/enderium_machine_side",
+    "west": "mystical:block/enderium_machine_side",
+    "inner": "mystical:block/enderium_machine_inner"
+  }
+}
