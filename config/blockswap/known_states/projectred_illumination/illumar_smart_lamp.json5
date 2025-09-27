@@ -1,0 +1,774 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "0"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "0"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "0"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "0"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "0"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "1"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "1"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "1"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "1"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "1"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "1"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "2"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "2"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "2"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "2"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "2"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "2"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "3"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "3"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "3"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "3"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "3"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "3"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "4"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "4"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "4"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "4"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "4"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "4"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "5"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "5"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "5"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "5"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "5"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "5"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "6"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "6"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "6"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "6"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "6"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "6"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "7"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "7"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "7"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "7"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "7"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "7"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "8"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "8"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "8"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "8"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "8"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "8"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "9"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "9"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "9"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "9"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "9"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "9"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "10"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "10"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "10"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "10"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "10"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "10"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "11"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "11"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "11"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "11"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "11"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "11"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "12"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "12"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "12"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "12"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "12"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "12"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "13"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "13"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "13"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "13"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "13"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "13"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "14"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "14"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "14"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "14"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "14"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "14"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "0",
+			"level": "15"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "1",
+			"level": "15"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "2",
+			"level": "15"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "3",
+			"level": "15"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "4",
+			"level": "15"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"side": "5",
+			"level": "15"
+		},
+		"Name": "projectred_illumination:illumar_smart_lamp"
+	}
+]

@@ -1,191 +1,91 @@
-#
-# Monifactory gitignore
-#
-
-# Start off by ignoring everything
 /*
 
-# Pre-commit ESLint hook
+!/config
+!/config-overrides
+!/kubejs
+!/defaultconfigs
+!/resourcepacks/
+/resourcepacks/*
+!/resourcepacks/CABIN*/
+!/.gitignore
+!/.gitattributes
+!/manifest.json
+!/tools
+/tools/bootstrap/.cache
 !/.github
+!.editorconfig
+!/pack-mode-switcher*
+./mods/compat.md
+!/CONTRIBUTING.md
+!/FAQ.md
+!/KNOWN-ISSUES.md
+!/mods/systeams*
+!/mods/ExtendedCrafting*
+!/ldlib
+/mods/.index
+/mods/.connector
+/mods/memoryleakfix*
 
-# Probe JS
-/kubejs/probe
-/kubejs/config/probejs.json
-/kubejs/config/probe-settings.json
-/kubejs/*/jsconfig.json
-
-# VSCode workspace
+# VSCode
 !/.vscode
 /.vscode/*
 !/.vscode/*.code-workspace
 
-# Configs
-!/config
-/config/*
+# Probe js
+/kubejs/probe
+/kubejs/config/probejs.json
+/kubejs/config/probe-settings.json
+/kubejs/*/jsconfig.json
+/kubejs/jsconfig.json
+/config/iconexporter-common.toml
 
-# AE2
-!/config/ae2
-/config/ae2/client.json
-/config/ae2/common.json
-
-# Almost Unified
-!/config/almostunified
-/config/almostunified/*
-!/config/almostunified/unify.json
-
-# Bountiful
-!/config/bountiful
-/config/bountiful/*
-!/config/bountiful/bounty_decrees
-
-# Default World Type
-!/config/defaultworldtype
+# Configs we don't want to keep
+config/fml.toml
+config/jei/world/local/*
+config/fabric/indigo-renderer.properties
+config/roughlyenoughitems/pinyin.properties
+config/roughlyenoughitems/pinyin_double.properties
+config/trofers/general.json5
+config/roughlyenoughitems/config.json5
+config/sidebar_buttons.json
+config/oculus.properties
+config/modernfix-mixins.properties
+config/immediatelyfast.json
+config/ftbbackups2.json
+config/spark/tmp
+config/spark/activity.json
+config/voicechat/username-cache.json
+config/minihud/*
+config/embeddium-fingerprint.json
+config/chiselsandbits-common.toml
 config/defaultworldtype/world-presets.txt
+config/jecalculation/record.json
+config/jade/sort-order.json
+config/jei*
+config/embeddium++.toml
+config/embeddium++.toml
+config/emi.css
+config\darkmodeeverywhereshaders.json
+config\darkmodeeverywhereshaders.toml
+config/ichunutil/themes
+config/everycomp-hazardous.properties
 
-# EnderIO configs
-!/config/enderio
-/config/enderio/*
-!/config/enderio/base-common.toml
-!/config/enderio/machines-common.toml
-
-# Fancy Menu Configs
-!/config/fancymenu
-
-# FTBQuests
-!/config/ftbquests
-/config/ftbquests/quests/chapters/genesis.snbt
-
-# Functional Storage
-!/config/functionalstorage
-/config/functionalstorage/*
-!/config/functionalstorage-common.toml
-
-# Hammer Lib
-!/config/hammerlib
-
-# Iron Jetpacks
-!/config/ironjetpacks
-
-# Jade
-!/config/jade
-/config/jade/*
-!/config/jade/jade.json
-
-# Lost cities
-!/config/lostcities
-/config/lostcities/profiles/*
-!/config/lostcities/profiles/monidefault.json
-
-# NCN
-!/config/NuclearCraft
-/config/NuclearCraft/*
-!/config/NuclearCraft/fission_fuel
-!/config/NuclearCraft/heat_sinks
-!/config/NuclearCraft/common.toml
-!/config/NuclearCraft/fission.toml
-!/config/NuclearCraft/materials.toml
-
-# SolarFlux
-!/config/solarflux
-
-# WaterMedia
-!/config/watermedia
-
-# Individual config files
-!/config/ad_astra.jsonc
-!/config/alltheleaks.json
-!/config/badoptimizations.txt
-!/config/cable_facades-common.toml
-!/config/climbladdersfast.json5
-!/config/compactmachines-common.toml
-!/config/connectivity.json
-!/config/create-client.toml
-!/config/create-common.toml
-!/config/custom-item-despawn-duration.json
-!/config/darkmodeeverywhere-client.toml
-!/config/darkmodeeverywhereshaders.json
-!/config/ding.toml
-!/config/embeddium-options.json
-!/config/embeddium++.toml
-!/config/emi_loot_config.toml
-!/config/extendedcrafting-common.toml
-!/config/fluxnetworks-common.toml
-!/config/flywheel-client.toml
-!/config/hostilenetworks.cfg
-!/config/immediatelyfast.json
-!/config/ironfurnaces-client.toml
-!/config/ironjetpacks-common.toml
-!/config/laserio-common.toml
-!/config/legendarytooltips-common.toml
-!/config/modernfix-mixins.properties
-!/config/monilabs.yaml
-!/config/quark-common.toml
-!/config/resourceful-config-web.json
-!/config/sdrp-common.json
-!/config/smoothboot.json
-!/config/smoothchunk.json
-!/config/sophisticatedcore-common.toml
-!/config/sophisticatedstorage-client.toml
-!/config/telepastries-common.toml
-!/config/tempad.jsonc
-!/config/thermal-common.toml
-!/config/toastcontrol-common.toml
-!/config/ulvcovm-common.toml
-!/config/watercollector-common.toml
-!/config/wirelesschargers-common.toml
-!/config/zume.json5
-
-# Config overrides
-!/config-overrides
-
-# defaultconfigs
-!/defaultconfigs
-defaultconfigs/ftbultimine/ftbultimine-client.snbt
-defaultconfigs/ftbultimine/ftbultimine-server.snbt
-
-# journeymap
-!/journeymap
-/journeymap/*
-!/journeymap/config
-/journeymap/config/5.10/*
-!/journeymap/config/5.10/journeymap.core.config
-
-# KubeJS scripts
-!/kubejs
-
-!/mods
-/mods/*
-!/mods/compats.md
-
-# Build script
-!/build
-
-# VSCode Editor Config
-!.editorconfig
-
-# Git files
-!/.gitattributes
-!/.gitignore
-
-# Documentation & README
-!/CHANGELOG.md
-!/CONTRIBUTING.md
-!/FAQ.md
-!/KNOWN-ISSUES.md
-!/LICENSE.md
-!/README.md
-
-# Mod manifest
-!/manifest.json
-
-# Pack mode Switcher scripts
-!/pack-mode-switcher*
-
-# Hide code-generated files
+#Hide code-generated files
 kubejs/client_scripts/Dev_Capes.js
 config/fancymenu/customization/pack_credit_screen_layout.txt
 **/en_ud.local
 **/en_ud.json
+
+#Hide all client-only files
+/config/**/*client.*
+#Except these
+!/config/sophisticatedstorage-client.toml
+!/config/**/darkmodeeverywhere-client.toml
+
+defaultconfigs/ftbultimine/ftbultimine-client.snbt
+defaultconfigs/ftbultimine/ftbultimine-server.snbt
+
+./options.txt
 
 # dotenv
 .env
@@ -222,6 +122,16 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 kubejs/assets/gtceu/textures/item/material_sets/infinity/infinity_plate.xcf
+config/packmode.json
+config/gtceu.yaml
+config/darkmodeeverywhereshaders.json
+
+#Don't ignore the Create client config so we can remove the Main Menu config button
+#it gets in the way of the beautiful FancyMenu
+!/config/create-client.toml
 
 # Downloadable dependencies
 **/node_modules
+
+# Tooling Cache Files #
+.eslintcache
