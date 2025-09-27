@@ -6,7 +6,7 @@
 !/defaultconfigs
 !/resourcepacks/
 /resourcepacks/*
-!/resourcepacks/CABIN*/
+!/resourcepacks/Mystical*/
 !/.gitignore
 !/.gitattributes
 !/manifest.json

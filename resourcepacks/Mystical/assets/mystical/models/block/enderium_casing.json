@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "mystical:block/enderium_casing_top",
+    "bottom": "mystical:block/enderium_casing_top",
+    "side": "mystical:block/enderium_casing"
+  }
+}
